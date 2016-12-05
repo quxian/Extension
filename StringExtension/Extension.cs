@@ -3,9 +3,9 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 
-namespace Extension
+namespace StringExtension
 {
-    public static class StringExtension
+    public static class Extension
     {
         private static readonly MD5 _md5 = MD5.Create();
         private static readonly SpinLock _spinLock = new SpinLock();
