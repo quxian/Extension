@@ -3,7 +3,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 
-namespace StringExtension
+namespace StringExtensionForYongsheng
 {
     public static class Extension
     {
